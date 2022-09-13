@@ -1,0 +1,23 @@
+body{
+  background-image: linear-gradient(#e8afb9 ,#baf6ba,#dacb69);
+  background-attachment: fixed;
+  padding: 10px 0px 25px 30px;
+}
+h1{
+  color: blue;
+}
+h3{
+  color: rgb(25, 153, 25);
+}
+ul li{
+  font-weight: 600;
+}
+pre{
+  font-weight: 600;
+  font-size: large;
+  color: rgb(241, 25, 69);
+  margin-left: 50px;
+}
+strong{
+  font-size: 1.2rem;
+}
