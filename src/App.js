@@ -1,9 +1,11 @@
 import './App.css';
 import Hoc from './Components/Hoc';
 import ProductList from './Components/ProductList';
+import Purecomponents from './Components/Purecomponents';
 
 function App() {
   return (
+    <>
     <div className="App">
     <h1>Higher-Order Components</h1>
     <strong>1)Higher-order components or HOC is the advanced method of reusing the component functionality logic. <br/> 2)It simply takes the original component and returns the enhanced component.</strong>
@@ -23,8 +25,11 @@ const EnhancedComponent = higherOrderComponent(OriginalComponent);
 </ul>
        <Hoc/>
        <ProductList/>
+       <Purecomponents/>
     </div>
+    </>
   );
+  
 }
 
 export default App;
