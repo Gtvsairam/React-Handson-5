@@ -6,6 +6,9 @@ body{
 h1{
   color: blue;
 }
+h2{
+  color: rgb(255, 109, 5);
+}
 h3{
   color: rgb(25, 153, 25);
 }
@@ -20,4 +23,13 @@ pre{
 }
 strong{
   font-size: 1.2rem;
+}
+button{
+  padding: 10px;
+ background-color: rgba(125, 87, 67, 0.874);
+ color: rgb(255, 255, 255);
+ font-size: large;
+ border-radius: 18px;
+ border: none;
+
 }
